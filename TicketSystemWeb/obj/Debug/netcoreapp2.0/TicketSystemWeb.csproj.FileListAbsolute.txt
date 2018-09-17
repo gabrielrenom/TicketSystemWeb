@@ -1,0 +1,12 @@
+c:\projects\TicketSystemWeb\TicketSystemWeb\bin\Debug\netcoreapp2.0\TicketSystemWeb.deps.json
+c:\projects\TicketSystemWeb\TicketSystemWeb\bin\Debug\netcoreapp2.0\TicketSystemWeb.runtimeconfig.json
+c:\projects\TicketSystemWeb\TicketSystemWeb\bin\Debug\netcoreapp2.0\TicketSystemWeb.runtimeconfig.dev.json
+c:\projects\TicketSystemWeb\TicketSystemWeb\bin\Debug\netcoreapp2.0\TicketSystemWeb.dll
+c:\projects\TicketSystemWeb\TicketSystemWeb\bin\Debug\netcoreapp2.0\TicketSystemWeb.pdb
+c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.csprojAssemblyReference.cache
+c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.csproj.CoreCompileInputs.cache
+c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.AssemblyInfoInputs.cache
+c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.AssemblyInfo.cs
+c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.dll
+c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.pdb
