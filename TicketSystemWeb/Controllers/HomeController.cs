@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TicketSystemWeb.Models;
+using TicketSystemWeb.Models.TicketViewModels;
 
 namespace TicketSystemWeb.Controllers
 {
@@ -32,6 +33,11 @@ namespace TicketSystemWeb.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult Ticket()
+        {
+            return View(new TicketViewModel { Id=12, Name="Hello"  });
         }
     }
 }

@@ -5028,6 +5028,16 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "TicketSystemWeb.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TicketSystemWeb.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketSystemWeb.Data.dll": {}
+        }
       }
     }
   },
@@ -13249,6 +13259,11 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "TicketSystemWeb.Data/1.0.0": {
+      "type": "project",
+      "path": "../TicketSystemWeb.Data/TicketSystemWeb.Data.csproj",
+      "msbuildProject": "../TicketSystemWeb.Data/TicketSystemWeb.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13256,7 +13271,8 @@
       "Microsoft.AspNetCore.All >= 2.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.4"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.4",
+      "TicketSystemWeb.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13266,11 +13282,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\projects\\TicketSystemWeb\\TicketSystemWeb\\TicketSystemWeb.csproj",
+      "projectUniqueName": "C:\\projects\\TicketSystemWeb\\TicketSystemWeb\\TicketSystemWeb.csproj",
       "projectName": "TicketSystemWeb",
-      "projectPath": "c:\\projects\\TicketSystemWeb\\TicketSystemWeb\\TicketSystemWeb.csproj",
+      "projectPath": "C:\\projects\\TicketSystemWeb\\TicketSystemWeb\\TicketSystemWeb.csproj",
       "packagesPath": "C:\\Users\\FCG\\.nuget\\packages\\",
-      "outputPath": "c:\\projects\\TicketSystemWeb\\TicketSystemWeb\\obj\\",
+      "outputPath": "C:\\projects\\TicketSystemWeb\\TicketSystemWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13290,7 +13306,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\projects\\TicketSystemWeb\\TicketSystemWeb.Data\\TicketSystemWeb.Data.csproj": {
+              "projectPath": "C:\\projects\\TicketSystemWeb\\TicketSystemWeb.Data\\TicketSystemWeb.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

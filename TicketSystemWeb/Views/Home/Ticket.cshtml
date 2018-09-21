@@ -1,0 +1,17 @@
+﻿@model TicketSystemWeb.Models.TicketViewModels.TicketViewModel
+
+@{
+    ViewData["Title"] = "Ticket";
+}
+
+<h2>Ticket</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form asp-controller="Home" asp-action="RegisterInput" method="post">
+    Id:  <input asp-for="Id" /> <br />
+    Name: <input asp-for="Name" /><br />
+    <button type="submit">Register</button>
+</form>
+

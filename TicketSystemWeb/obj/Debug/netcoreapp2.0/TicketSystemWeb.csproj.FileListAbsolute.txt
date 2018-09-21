@@ -10,3 +10,6 @@ c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystem
 c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.AssemblyInfo.cs
 c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.dll
 c:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.pdb
+C:\projects\TicketSystemWeb\TicketSystemWeb\bin\Debug\netcoreapp2.0\TicketSystemWeb.Data.dll
+C:\projects\TicketSystemWeb\TicketSystemWeb\bin\Debug\netcoreapp2.0\TicketSystemWeb.Data.pdb
+C:\projects\TicketSystemWeb\TicketSystemWeb\obj\Debug\netcoreapp2.0\TicketSystemWeb.csproj.CopyComplete

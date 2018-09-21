@@ -14,6 +14,13 @@ namespace TicketSystemWeb.Data
             : base(options)
         {
         }
+        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<Staff> StaffMembers { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<File> Files { get; set; }
+        public DbSet<StaffService> StaffServices { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
